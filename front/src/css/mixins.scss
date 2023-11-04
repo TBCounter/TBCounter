@@ -1,0 +1,16 @@
+$sizes: (
+    "mobile":500px,
+    "tablet":991px,
+);
+
+@mixin media($media) {
+
+    @each $size,
+    $resolution in $sizes {
+        @if $media ==$size {
+            @media only screen and (max-width: $resolution) {
+                @content;
+            }
+        }
+    }
+}
