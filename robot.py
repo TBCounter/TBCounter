@@ -653,4 +653,4 @@ class RobotCookie(Robot):
 
 
 if __name__ == "__main__":
-    robot = Robot("login", "password")
+    robot = Robot({"login": "login", "password":"password", "isTriumph":False}) #password should be hashed
