@@ -49,3 +49,8 @@ Selenium chests parser for totalbattle
 - run `python main.py`
 database should be created automatically
 - migrate database `alembic upgrade head`
+
+### support
+
+
+support me [on patreon](https://patreon.com/Omega394) or [boosty](https://boosty.to/omega_soft)
